@@ -1,0 +1,28 @@
+img {
+	margin: 26vh;
+}
+h2 {
+	font-family: papyrus;
+	margin: 18vh;
+}
+h1 {
+	font-family: Comic Sans MS;
+	margin: 3vh;
+}
+p {
+	text-align: center;
+	font-size: 50px;
+	margin: 12vh;
+	background-color: #f500e0;
+}
+ul {
+	text-align: center;
+	padding: 5vh 0vh 595vh 0vh;
+	border-left: 30px solid red;
+	border-right: 13px dotted blue;
+	border-top: 2px ridge white;
+	border-bottom: 29px groove white;
+}
+body {
+	background-color: #303030;
+}

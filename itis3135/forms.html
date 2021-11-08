@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+	<head>
+		<meta charset="UTF-8">
+		<link href="styles/default.css" rel="stylesheet" type="text/css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+		<title>Mark Feng, ITIS 3135, Forms</title>
+	</head>
+	<body>
+		<header>
+			<h1>Mark Feng - ITIS 3135</h1>
+		</header>
+		<main>
+			<nav>
+				<a href="introduction.html">Introduction</a>
+				 - 
+				<a href="tables.html">Tables</a>
+				-
+				<a href="forms.html">Forms</a>
+				-
+				<a href="website_evaluations.html">Website Evaluations</a>
+				-
+				<a href="first-scripts.html">First Scripts</a>
+			</nav>
+			<h2>Enter your personal information for a coupon!</h2>
+			
+			<form action="#">
+				<div class="entry">
+					<label class="entry">
+						<b>Full Name:</b>
+						<input class="entry" placeholder="Enter name" type="text" size="16" required/>
+					</label>
+					
+					<label class="entry">
+						<b>Phone Number:</b>
+						<input class="entry" placeholder="Enter number" type="number" required/>
+					</label>
+					
+					<label class="entry">
+						<b>E-mail:</b>
+						<input class="entry" placeholder="Enter e-mail" type="email" size="16" required/>
+					</label>
+				</div>
+				
+				<div class="radio">
+					<label id="gender"><b>Gender:</b></label>	
+					<label class="radio" for="male">
+						<input id="male" name="drop" type="radio" value="male"/>Male
+					</label>
+					
+					<label class="radio" for="female">
+						<input id="female" name="drop" type="radio" value="female"/>Female
+					</label>
+					
+					<label class="radio" for="other">
+						<input id="other" name="drop" type="radio" value="other"/>Other
+					</label>
+				</div>
+				
+				<div class="drop">
+					<label><b>What city are you in?</b></label>
+					<select name="drop" class="drop">
+						<option value='default'>Choose option</option>
+						<option value='cary'>Cary</option>
+						<option value='raleigh'>Raleigh</option>
+						<option value='charlotte'>Charlotte</option>
+					</select>
+				</div>
+				
+				<div class="confirm">
+					<label for="confirm">
+						<input id="confirm" type="checkbox" required>
+						The information I provided is accurate.
+					</label>
+					
+					<input class="submit" type="submit" value="submit">
+				</div>
+			</form>
+		</main>
+		<footer>
+			<br>
+			<nav>
+				<a href="https://webpages.uncc.edu/mfeng1/" target="_blank">Charlotte.edu</a> -
+				<a href="https://github.com/Alderheart" target="_blank">Github</a> -
+				<a href="https://alderheart.github.io/" target="_blank">Github.io</a> -
+				<a href="https://alderheart.github.io/itis3135/" target="_blank">ITIS 3135 Github Pages</a> -
+				<a href="https://www.freecodecamp.org/mfeng1" target="_blank">freeCodeCamp</a> -
+			</nav>
+			<br>
+			<p>
+				Page built by Marker
+			</p>
+			<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fmfeng1%2Fitis3135%2Fforms.html" target="_blank">
+				<img src='images/button-valid-html5.gif' alt='Valid HTML 5'>
+			</a>
+			<p>
+				<a href="https://jigsaw.w3.org/css-validator/check/referer">
+					<img style="border:0;width:88px;height:31px"
+						src="https://jigsaw.w3.org/css-validator/images/vcss"
+						alt="Valid CSS!" />
+				</a>
+			</p>
+     
+		</footer>
+	</body>
+</html>

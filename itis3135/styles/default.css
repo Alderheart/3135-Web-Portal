@@ -1,0 +1,83 @@
+.align {
+	text-align: left;
+}
+
+.image {
+	max-width: 700px
+}
+
+.list {
+	text-align: left;
+}
+
+.entry {
+	margin: 0.5vh;
+	display: block;
+}
+
+.radio {
+	margin: 0.5vh;
+}
+
+.drop {
+	margin: 0.5vh;
+}
+
+.submit {
+    margin: 0.8vh 0vh 0.8vh 0vh;
+	display: block;
+	background-color: black;
+	color: white;
+}
+
+#gender {
+	margin: 0.8vh;
+	display: block;
+}
+
+#marker {
+	display: none;
+	max-width: 500px;
+}
+
+button {
+	background-color: #93EFFF;
+}
+
+a:link {
+	color: #ff7300;
+}
+
+a:visited {
+	color: #e88956;
+}
+
+table tr:nth-child(odd) {
+	background-color: #93EFFF;
+	color: #000; 
+}
+
+table tr:nth-child(even) {
+	background-color: #3DD0E9;	
+	color: #000; 
+}
+
+th, td {
+	border: 2px solid black;
+}
+
+figure {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 40px;
+	margin-inline-end: 40px;
+}
+
+body {
+	font-family: lato;
+	color: blue;
+	background-color: white;
+	margin-left: 75px;
+	margin-right: 75px;
+}

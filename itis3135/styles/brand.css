@@ -1,0 +1,77 @@
+.logo {
+	max-width: 5em;
+	max-height: 5em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15%
+}
+.header {
+	margin: auto;
+	max-width: 20em;
+	background-color: #EDD382;
+	padding: 0vh 0vh 3vh 0vh;
+	border-radius: 0.4em;
+}
+.section {
+	list-style: inside;
+	text-align: center;
+	font-family: lato;
+}
+.layout {
+	max-width: 45vh;
+	border: 2px solid black;
+	border-radius: 0.4em;
+	display: inline-block;
+}
+#dynamic {
+	text-align: left;
+	display: inline-block;
+}
+#numb {
+	display: inline;
+}
+
+#buttons {
+	margin: auto;
+	text-align: center;
+}
+#intro {
+	font-size: 1.5em;
+	padding: 3vh 0.8vh 3vh 0.8vh;
+}
+#list {
+	font-size: 1.3em;
+	columns: 2;
+	background-color: #FC9E4F;
+	padding: 3vh 0.8vh 3vh 0.8vh;
+	border-radius: 0.4em;
+}
+#outro {
+	font-size: 1.25em;
+	padding: 3vh 0.8vh 3vh 0.8vh;
+}
+#output {
+	text-align: center;
+	font-size: 1.3em;
+}
+button {
+	background-color: #EDD382;
+	border: 2px solid black;
+	border-radius: 0.4em;
+	font-size: 1.6em;
+}
+body {
+	background-color: #F2F3AE;
+}
+h1, h2, p, li, ul, button, footer {
+	text-align: center;
+	font-family: lato;
+}
+ul {
+	list-style: inside;
+	list-style-type: circle;
+}
+hr {
+	color: #020122;
+}
